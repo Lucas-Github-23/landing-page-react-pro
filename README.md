@@ -13,11 +13,6 @@ Uma landing page moderna e totalmente responsiva para a venda de um curso de Rea
 
 ## ✨ Demonstração
 
-Aqui você pode ver o site em ação, incluindo a troca de tema e as animações de scroll.
-
-📽️ **GIF da aplicação em funcionamento**  
-(Grave a tela e converta para GIF usando ferramentas como **ScreenToGif** ou **GIPHY Capture**)
-
 🔗 **Deploy Online**: [Clique Aqui!](https://landing-page-react-pro.vercel.app/)
 
 ---

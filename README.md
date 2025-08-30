@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+⚛️ Landing Page - Curso React Pro
+<p align="center"> Uma landing page moderna e totalmente responsiva para a venda de um curso de React, construída do zero com as melhores práticas do ecossistema React. </p>
+<p align="center"> <a href="#-features"><strong>Features</strong></a> · <a href="#-tecnologias"><strong>Tecnologias</strong></a> · <a href="#-começando"><strong>Como Executar</strong></a> </p>
+✨ Demonstração
+Aqui você pode ver o site em ação, incluindo a troca de tema e as animações de scroll.
+[GIF da aplicação em funcionamento. Grave a tela e converta para GIF usando uma ferramenta como o ScreenToGif ou o GIPHY Capture.]
+🔗 Link para o deploy: [Link da sua Vercel/Netlify aqui]
+🚀 Features
+🎨 Tema Claro e Escuro: Acessibilidade e conforto visual para o usuário com um seletor de tema persistente.
+📱 Design 100% Responsivo: Experiência de usuário impecável em qualquer dispositivo, do desktop ao mobile.
+🎬 Animações com Framer Motion: Animações sutis de "fade-in" e "slide-in" nas seções ao rolar a página, tornando a navegação mais fluida e agradável.
+🏗️ Arquitetura Escalável: Código organizado em componentes, seções, hooks e contextos, seguindo as melhores práticas para facilitar a manutenção e o crescimento do projeto.
+💅 Estilização com CSS Modules: Estilos escopados por componente para evitar conflitos de classes e garantir um CSS limpo e previsível.
+🛠️ Tecnologias
+Este projeto foi construído utilizando as seguintes tecnologias:
+Tecnologia
+Descrição
+React
+Biblioteca principal para a construção da interface de usuário.
+CSS Modules
+Para estilização local e escopada por componente.
+Framer Motion
+Para criar animações declarativas e performáticas.
+React Icons
+Biblioteca de ícones para todos os ícones utilizados no projeto.
+Git & GitHub
+Para controle de versão e hospedagem do código.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🏁 Começando
+Siga os passos abaixo para clonar e executar o projeto em sua máquina local.
+Pré-requisitos:
+Node.js (versão 16 ou superior)
+npm ou yarn
+Passos:
+Clone o repositório:
+git clone [https://github.com/Lucas-Github-23/landing-page-react-pro.git](https://github.com/Lucas-Github-23/landing-page-react-pro.git)
 
-## Available Scripts
 
-In the project directory, you can run:
+Navegue até o diretório do projeto:
+cd landing-page-react-pro
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Instale as dependências:
+npm install
+ou, se estiver usando yarn:
+yarn install
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Inicie o servidor de desenvolvimento:
+npm start
+ou:
+yarn start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Abra seu navegador e acesse http://localhost:3000 para ver a aplicação em funcionamento.
+👨‍💻 Desenvolvido por
+Lucas Github 23
+GitHub: @Lucas-Github-23
+LinkedIn: Seu LinkedIn Aqui

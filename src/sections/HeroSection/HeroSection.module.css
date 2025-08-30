@@ -1,0 +1,94 @@
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 6rem 5% 2rem;
+  text-align: center;
+  background-color: var(--background-primary);
+  position: relative; 
+  overflow: hidden; 
+}
+
+/* O pseudo-elemento agora usa a variável CSS passada pelo componente JS */
+.heroSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* A mágica acontece aqui! O CSS usa a variável definida no estilo inline. */
+  background-image: var(--background-image-url);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.08;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+body[data-theme='light'] .heroSection::before {
+    opacity: 0.1;
+}
+
+.heroContent {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+}
+
+.title {
+  font-family: 'Space Mono', monospace;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin-bottom: 1.5rem;
+  min-height: 115px; 
+  display: inline-block;
+}
+
+.typingEffect::after {
+  content: '|';
+  color: var(--primary-color);
+  animation: blink 1s step-end infinite;
+  margin-left: 0.25rem;
+}
+
+@keyframes blink {
+  from, to { color: transparent }
+  50% { color: var(--primary-color) }
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  margin-bottom: 2.5rem;
+  line-height: 1.6;
+}
+
+.ctaButton {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ctaButton:hover {
+  background-color: var(--primary-color-dark);
+  transform: translateY(-3px);
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 3.5rem;
+    min-height: 100px;
+  }
+}

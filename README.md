@@ -18,7 +18,7 @@ Aqui você pode ver o site em ação, incluindo a troca de tema e as animações
 📽️ **GIF da aplicação em funcionamento**  
 (Grave a tela e converta para GIF usando ferramentas como **ScreenToGif** ou **GIPHY Capture**)
 
-🔗 **Deploy Online**: [Adicione aqui o link da Vercel/Netlify]
+🔗 **Deploy Online**: [Clique Aqui!](https://landing-page-react-pro.vercel.app/)
 
 ---
 
@@ -49,4 +49,4 @@ Aqui você pode ver o site em ação, incluindo a troca de tema e as animações
 **Lucas Github 23**
 
 - GitHub: [@Lucas-Github-23](https://github.com/Lucas-Github-23)  
-- LinkedIn: [Adicione seu LinkedIn aqui]
+- LinkedIn: [Lucas Gabriel](https://www.linkedin.com/in/lucas-gabriel-521082279/)

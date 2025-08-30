@@ -46,7 +46,7 @@ Aqui você pode ver o site em ação, incluindo a troca de tema e as animações
 
 ## 👨‍💻 Desenvolvido por
 
-**Lucas Github 23**
+**Lucas Gabriel**
 
 - GitHub: [@Lucas-Github-23](https://github.com/Lucas-Github-23)  
 - LinkedIn: [Lucas Gabriel](https://www.linkedin.com/in/lucas-gabriel-521082279/)

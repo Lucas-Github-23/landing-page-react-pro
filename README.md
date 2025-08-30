@@ -10,7 +10,12 @@ Uma landing page moderna e totalmente responsiva para a venda de um curso de Rea
 </p>
 
 ---
+## ⚠️ Aviso Importante
 
+Este projeto é um protótipo desenvolvido para fins de estudo e portfólio.  
+As imagens e outros recursos visuais foram gerados por **inteligência artificial (Google Gemini)** e servem apenas como **placeholders**.  
+
+---
 ## ✨ Demonstração
 
 🔗 **Deploy Online**: [Clique Aqui!](https://landing-page-react-pro.vercel.app/)
